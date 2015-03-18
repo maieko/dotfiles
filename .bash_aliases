@@ -1,5 +1,4 @@
 #############################################################################
-#
 # Change up/down arrow key behaviour to navigate only similar commands
 ##############################################################################
 bind '"\e[A":history-search-backward'
