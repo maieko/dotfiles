@@ -4,4 +4,4 @@
 chsh -s /usr/bin/fish
 
 # Make symlinks to fisch config-files
-ln -sf ~/.config/fish/config.fish ~/dotfiles/config.fish
+ln -sf ~/.dotfiles/config.fish ~/.config/fish/config.fish
