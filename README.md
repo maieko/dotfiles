@@ -1,5 +1,6 @@
 My Fish-Shell - Config
 ======================
+(tested with Fish 2.1.1)
 
 Install (Ubuntu 14.04)
 -------
