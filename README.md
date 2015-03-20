@@ -12,3 +12,4 @@ sudo apt-get update
 sudo apt-get install fish
 git clone https://github.com/CrusaderW/dotfiles.git ~/dotfiles && ~/dotfiles/install.sh
 ```
+be aware that install.sh sets Fish as your default shell and replaces the files in ``~/.config/fish/`` by symlinks pointing to your ``~/dotfiles/*.fish``
