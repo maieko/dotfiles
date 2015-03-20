@@ -24,6 +24,9 @@
   set __fish_git_prompt_char_stashstate (set_color purple)'↩'(set_color normal)
   set __fish_git_prompt_char_upstream_ahead (set_color blue)'+'(set_color normal)
   set __fish_git_prompt_char_upstream_behind (set_color blue)'-'(set_color normal)
+  set __fish_git_prompt_char_upstream_diverged (set_color blue)'±'(set_color normal)
+  set __fish_git_prompt_char_upstream_equal (set_color green)'='(set_color normal)
+  set __fish_git_prompt_char_cleanstate (set_color green)'✔'(set_color normal)
 
 
 function fish_prompt
@@ -38,6 +41,10 @@ function fish_prompt
   set_color normal
 end
 
-#function fish_right_prompt -d "Write out the right prompt"
-#  printf last_status date "+%m/%d/%y"
-#end
+function fish_right_prompt -d "Write out the right prompt"
+  if test $status -eq 0
+    echo (set_color green)'✔ '(set_color normal)
+  else
+    echo (set_color red)$status' '(set_color normal)
+  end
+end
