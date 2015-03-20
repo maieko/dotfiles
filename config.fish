@@ -38,6 +38,6 @@ function fish_prompt
   set_color normal
 end
 
-function fish_right_prompt -d "Write out the right prompt"
-  printf last_status date "+%m/%d/%y"
-end
+#function fish_right_prompt -d "Write out the right prompt"
+#  printf last_status date "+%m/%d/%y"
+#end
