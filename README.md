@@ -3,7 +3,7 @@ My Fish-Shell - Config
 
 Install (Ubuntu 14.04)
 -------
-Put the following commands to your bash:
+Put the following commands to your bash (the install.sh will not set fish as default shell if you currently use zsh):
 
 ```
 sudo apt-add-repository ppa:fish-shell/release-2
