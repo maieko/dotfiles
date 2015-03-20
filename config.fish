@@ -26,7 +26,8 @@
   set __fish_git_prompt_char_upstream_ahead (set_color blue)'+'(set_color normal)
   set __fish_git_prompt_char_upstream_behind (set_color blue)'-'(set_color normal)
   set __fish_git_prompt_char_upstream_diverged (set_color blue)'±'(set_color normal)
-  set __fish_git_prompt_char_upstream_equal (set_color green)'✔'(set_color normal)
+  set __fish_git_prompt_char_upstream_equal (set_color green)'='(set_color normal)
+  set __fish_git_prompt_char_cleanstate (set_color green)'✔'(set_color normal)
 
 function fish_prompt
   set last_status $status
