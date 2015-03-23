@@ -46,3 +46,8 @@ alias gpl='git pull'
 #alias gba='git branch -a -v -v'
 #alias gun='git reset HEAD' # Unstage added changes
 #alias gbc='git checkout -b'
+
+##############################################################################
+# Please
+############################################################################## 
+alias please='eval "sudo $history[1]"'
