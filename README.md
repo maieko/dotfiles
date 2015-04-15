@@ -10,6 +10,6 @@ Put the following commands to your bash (the install.sh will not set fish as def
 sudo apt-add-repository ppa:fish-shell/release-2
 sudo apt-get update
 sudo apt-get install fish
-git clone https://github.com/CrusaderW/dotfiles.git ~/dotfiles && ~/dotfiles/install.sh
+git clone https://github.com/CrusaderW/dotfiles.git ~/.dotfiles && ~/.dotfiles/install.sh
 ```
-be aware that install.sh sets Fish as your default shell and replaces the files in ``~/.config/fish/`` by symlinks pointing to your ``~/dotfiles/*.fish``
+be aware that install.sh sets Fish as your default shell and replaces the files in ``~/.config/fish/`` by symlinks pointing to your ``~/.dotfiles/*.fish``
