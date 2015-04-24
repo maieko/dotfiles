@@ -12,7 +12,7 @@ function condactivate -d 'Activate a conda environment' -a cenv
 
   # condabin will be the path to the bin directory
   # in the specified conda environment
-  set condabin $HOME/anaconda/$cenv/bin
+  set condabin $HOME/anaconda/envs/$cenv/bin
 
   # check whether the condabin directory actually exists and
   # exit the function with an error status if it does not
