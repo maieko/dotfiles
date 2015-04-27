@@ -31,7 +31,10 @@
 
 function fish_prompt
   set last_status $status
-
+  if [ (whoami) = 'root' ]
+          # something simple for root user
+          #       printf '%s[%s]%s # %s' (set_color 555) (pwd) (set_color --bold red) (set_color normal)
+  else
   set_color $fish_color_cwd
   printf '%s' (prompt_pwd)
   set_color normal
@@ -39,6 +42,7 @@ function fish_prompt
   printf '%s ' (__fish_git_prompt)
 
   set_color normal
+end
 end
 
 function fish_right_prompt -d "Write out the right prompt"
