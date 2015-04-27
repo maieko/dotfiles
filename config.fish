@@ -1,4 +1,5 @@
 . ~/.config/fish/aliases.fish
+. conda.fish
 
   set normal (set_color normal)
   set magenta (set_color magenta)
