@@ -37,7 +37,7 @@ function fish_prompt
           printf '%s[%s]%s # %s' (set_color 555) (pwd) (set_color --bold red) (set_color normal)
   else
   set_color $fish_color_cwd
-  printf '%s' (prompt_pwd)
+  printf '%s %s' (date "+$c2%H$c0:$c2%M$c0:$c2%S") (prompt_pwd)
   set_color normal
 
   printf '%s ' (__fish_git_prompt)
