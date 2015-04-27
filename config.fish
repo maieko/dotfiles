@@ -34,7 +34,7 @@ function fish_prompt
   set last_status $status
   if [ (whoami) = 'root' ]
           # something simple for root user
-          #       printf '%s[%s]%s # %s' (set_color 555) (pwd) (set_color --bold red) (set_color normal)
+          printf '%s[%s]%s # %s' (set_color 555) (pwd) (set_color --bold red) (set_color normal)
   else
   set_color $fish_color_cwd
   printf '%s' (prompt_pwd)
