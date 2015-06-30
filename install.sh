@@ -32,9 +32,10 @@ DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
 
 #####################################
-# Make symlinks to fisch config-files
+# Make symlinks to fish config-files
 #####################################
 ln -sf $DIR/config.fish $FISH_CONFIG/config.fish
 ln -sf $DIR/aliases.fish $FISH_CONFIG/aliases.fish
+ln -sf $DIR/conda.fish $FISH_CONFIG/conda.fish
 
 echo -e "\033[1;32mSUCCESS\033[0m Have fun ;)"
