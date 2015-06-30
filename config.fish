@@ -1,5 +1,6 @@
-. ~/.config/fish/aliases.fish
-. conda.fish
+source ~/.config/fish/aliases.fish
+source /home/christianwirth/.rvm/scripts/rvm
+source conda.fish
 
   set normal (set_color normal)
   set magenta (set_color magenta)
