@@ -4,6 +4,11 @@ if test -d ~/.hello
 end
 source conda.fish
 
+switch (uname) 
+  case "Darwin"
+    source ~/.config/fish/mac.fish
+end
+
 if status --is-interactive
   set normal (set_color normal)
   set magenta (set_color magenta)
