@@ -39,4 +39,4 @@ ln -sf $DIR/aliases.fish $FISH_CONFIG/aliases.fish
 ln -sf $DIR/conda.fish $FISH_CONFIG/conda.fish
 ln -sf $DIR/mac.fish $FISH_CONFIG/mac.fish
 
-echo -e "\033[1;32mSUCCESS\033[0m Have fun ;)"
+echo -e "\033[1;32mSUCCESS\033[0m Have fun ;) - in order to make fish your default shell you need to relog."
