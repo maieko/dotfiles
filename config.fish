@@ -12,7 +12,7 @@ if test -d ~/.hello
   source ~/.rvm/scripts/rvm
 end
 
-if test -d /usr/bin/go
+if test -d /usr/lib/go
   set -x GOPATH $HOME/git_repos/student_project
 end
 
