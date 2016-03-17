@@ -13,7 +13,7 @@ if test -d ~/.hello
 end
 
 if test -d /usr/lib/go
-  set -x GOPATH $HOME/git_repos/student_project
+  set -x GOPATH $HOME/go
 end
 
 if status --is-interactive
