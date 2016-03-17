@@ -1,12 +1,19 @@
 source ~/.config/fish/aliases.fish
-if test -d ~/.hello
-  source ~/.rvm/scripts/rvm
-end
 source conda.fish
 
+# load mac-specific config
 switch (uname) 
   case "Darwin"
     source ~/.config/fish/mac.fish
+end
+
+# Set paths if programms are installed
+if test -d ~/.hello
+  source ~/.rvm/scripts/rvm
+end
+
+if test -d /usr/bin/go
+  set -x GOPATH $HOME/git_repos/student_project
 end
 
 if status --is-interactive
