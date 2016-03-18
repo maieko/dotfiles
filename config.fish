@@ -14,6 +14,7 @@ end
 
 if test -d /usr/lib/go
   set -x GOPATH $HOME/go
+  set -gx PATH $GOPATH/bin $PATH
 end
 
 if status --is-interactive
