@@ -14,11 +14,11 @@ sudo apt-get install fish
 Clone via HTTPS
 ------
 ```
-git clone https://github.com/CrusaderW/dotfiles.git ~/.dotfiles && ~/.dotfiles/install.sh
+git clone https://github.com/maieko/dotfiles.git ~/.dotfiles && ~/.dotfiles/install.sh
 ```
 Clone via SSH
 -------
 ```
-git clone git@github.com:CrusaderW/dotfiles.git ~/.dotfiles && ~/.dotfiles/install.sh
+git clone git@github.com:maieko/dotfiles.git ~/.dotfiles && ~/.dotfiles/install.sh
 ```
 be aware that install.sh sets Fish as your default shell and replaces the files in ``~/.config/fish/`` by symlinks pointing to your ``~/.dotfiles/*.fish``
